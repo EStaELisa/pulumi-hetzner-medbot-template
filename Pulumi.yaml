@@ -1,0 +1,11 @@
+name: hetzner_medbot
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: ']11;rgb:0000/0000/0000\'
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/e98692d1-8a1c-4685-831e-a61a35aaf3ca.zip
